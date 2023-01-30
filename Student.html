@@ -4,9 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+	<!-- <script src="./js/jquery-3.6.0.js"></script> -->
+    <script src="./js/bootstrap.js"></script>
     <title>Student</title>
 </head>
 <body>
-    <h1>Hi sir</h1>
+ <!--Navbar Design start -->
+ <nav class="navbar navbar-expand bg-dark">
+    <div class="container-fluid justify-content-end me-5">
+        <ul class="navbar-nav ">
+            <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Compare</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contest</a>
+            </li>
+        </ul>
+    </div>
+
+ </nav>
+ <!--Navbar Design End -->
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-md-9">
+                <div class="card">
+                    <div class="row profilearea ">
+                        <div class="col-md-3 jahirul-pic">
+                            <img src="./asset/jahirul.png" alt="">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card mt-1 mb-1">
+                                <div class="card-header">
+                                    Jahirul_Islam
+                                </div>
+                                <div class="card-header">
+                                    4th Year, 2nd Semester
+                                </div>
+                                <div class="card-header">
+                                    1810876145
+                                </div>
+                                <div class="card-header">
+                                    Last tried: 2months ago
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="card mt-1 mb-1 me-0">
+                                <div class="card-header">
+                                    codeforces: Jahirul
+                                </div>
+                                <div class="card-header">
+                                    Vjudge: Jahirul_islam10
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 ">
+                <div class="card">
+                    <div class="card-header">
+                        <input type="text" placeholder="Search" class="form-control" required>
+                    </div>
+                    <div class="card-header">
+                        Upcoming Events
+                    </div>
+                    <div class="card-header">
+                        Notification
+                    </div>
+                    <div class="card-header">
+                        Assignment
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="container-fluid"></div>
+    <div class="row bdy">
+        <div class="col-12">
+            <input type="checkbox" class="form-check-input ms-2">
+            <label for="">all</label>
+            <input type="checkbox" class="form-check-input ms-2">
+            <label for="">Codeforces</label>
+            <input type="checkbox" class="form-check-input ms-2">
+            <label for="">Vjudge</label>
+        </div>
+        <div class="col-2 mt-3 ms-3">
+            <img src="./asset/solved_pic.png" alt="" width="170" height="170">
+        </div>
+        <div class="col-3">
+            <ul class="list-group">
+                <li class="list-group-item border-0">542 Accepted</li>
+                <li class="list-group-item border-0">32 Wrong Answer</li>
+                <li class="list-group-item border-0">57 Time Limit Erros</li>
+                <li class="list-group-item border-0">12 Memory Limit Error</li>
+                <li class="list-group-item border-0">17 Compilation Error</li>
+            </ul>
+        </div>
+        <div class="col-4">
+            <img src="./asset/language.jpeg" alt="" width="400" height="250">
+        </div>
+        <div class="col-12">
+            <img src="./asset/heatmap.png" alt="">
+         </div>
+    </div>
+</div>
 </body>
 </html>
