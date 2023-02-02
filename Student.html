@@ -4,9 +4,249 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+	<!-- <script src="./js/jquery-3.6.0.js"></script> -->
+    <script src="./js/bootstrap.js"></script>
     <title>Student</title>
 </head>
 <body>
-    <h1>Hi sir</h1>
+ <!--Navbar Design start -->
+ <nav class="navbar navbar-expand bg-dark">
+    <div class="container-fluid justify-content-end me-5">
+        <ul class="navbar-nav ">
+            <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Compare</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contest</a>
+            </li>
+        </ul>
+    </div>
+
+ </nav>
+ <!--Navbar Design End -->
+ <div class="container-fliud">
+    <div class="row">
+        <div class="col-9">
+            <div class="row">
+                <div class="col-2 mx-3">
+                    <img src="./asset/jahirul.png" class="rounded-circle" alt="">
+                </div>
+                <div class="col-3">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Jahirul Islam</th>
+                                
+                            </tr>
+                            <tr>
+                                <th>4th Year, 2nd Semester</th>  
+                            </tr>
+                            <tr>
+                                <th>1810876145</th>  
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="col-4">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Codeforces : Jahirul</th>
+                                
+                            </tr>
+                            <tr>
+                                <th>Vjudge : Jahirul_islam_10</th>  
+                            </tr>
+                            <tr>
+                                <th>LightOJ : Hello_World</th>  
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="row justify-content-center bg-dark my-1">
+                <div class="col-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text bg-primary">
+                          <input type="checkbox" class="form-check-input">
+                          <label for="">All</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="input-group-prepend ">
+                        <div class="input-group-text bg-success">
+                            <input type="checkbox" class="form-check-input">
+                            <label for="">Codeforces</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="input-group-prepend ">
+                        <div class="input-group-text bg-secondary">
+                            <input type="checkbox" class="form-check-input">
+                            <label for="">Vjudge</label>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-2">
+                    <div class="input-group-prepend ">
+                        <div class="input-group-text bg-primary">
+                            <input type="checkbox" class="form-check-input">
+                            <label for="">LightOJ</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 mt-3">
+                    <img src="./asset/Verdicts.png" class="rounded-circle" alt="" height="250">
+                </div>
+                <div class="col-4 mt-4">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>542 Accepted</th>
+                                
+                            </tr>
+                            <tr>
+                                <th>32 Wrong Answer</th>  
+                            </tr>
+                            <tr>
+                                <th>57 Time Limit Erros</th>  
+                            </tr>
+                            <tr>
+                                <th>12 Memory Limit Errors</th>  
+                            </tr>
+                            <tr>
+                                <th>7 Compilation Errors</th>  
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div class="col-4">
+                    <img src="./asset/Languages.png" class="rounded-circle" alt="" height="250">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <img src="./asset/hmap.png" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 ms-2">
+                    <table class="table table-bordered table-striped">
+                        <thead class="table-primary">
+                            <tr>
+                                <th>When</th>
+                                <th>Problem</th>
+                                <th>Lang</th> 
+                                <th>Verdict</th>
+                                <th>Time</th> 
+                                <th>Memory</th> 
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Feb/02/2023 03:13</td>
+                                <td>F1-Korney Korneevich and XOR (easy version) </td>
+                                <td>GNU C++17</td>
+                                <td>Accepted</td>
+                                <td>78 ms</td>
+                                <td>35700 KB</td>
+                            </tr>
+                            <tr>
+                                <td>Feb/02/2023 03:09</td>
+                                <td>F1-Korney Korneevich and XOR (easy version) </td>
+                                <td>GNU C++17</td>
+                                <td>Wrong answer on test 1</td>
+                                <td>0 ms</td>
+                                <td>177300 KB</td>
+                            </tr>
+                            <tr>
+                                <td>Feb/02/2023 03:13</td>
+                                <td> D - Not Adding  </td>
+                                <td>GNU C++17</td>
+                                <td>Accepted</td>
+                                <td>78 ms</td>
+                                <td>35700 KB</td>
+                            </tr>
+                            <tr>
+                                <td>Feb/02/2023 03:09</td>
+                                <td>D - Different Arrays </td>
+                                <td>GNU C++17</td>
+                                <td>ccepted</td>
+                                <td>0 ms</td>
+                                <td>177300 KB</td>
+                            </tr>
+                            <tr>
+                                <td>Feb/02/2023 03:13</td>
+                                <td>B - Digital root  </td>
+                                <td>GNU C++17</td>
+                                <td>Accepted</td>
+                                <td>78 ms</td>
+                                <td>35700 KB</td>
+                            </tr>
+                            <tr>
+                                <td>Feb/02/2023 03:09</td>
+                                <td>B - Digital root </td>
+                                <td>GNU C++17</td>
+                                <td>Wrong answer on test 1</td>
+                                <td>0 ms</td>
+                                <td>177300 KB</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="row">
+                <div class="col-10">   
+                    <div class="card">
+                        <div class="card-header">
+                            Pay attension
+                        </div>
+                        <div class="card-header">
+                            <input type="text" placeholder="Search" class="form-control" required>
+                        </div>
+                        <div class="card-header">
+                            Upcoming Events
+                        </div>
+                        <div class="card-header">
+                            Notification
+                        </div>
+                        <div class="card-header">
+                            Assignment
+                        </div>
+                        <div class="card-header">
+                            Upcoming Events
+                        </div>
+                        <div class="card-header">
+                            Notification
+                        </div>
+                        <div class="card-header">
+                            Assignment
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
