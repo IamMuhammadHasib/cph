@@ -1,21 +1,21 @@
 UserName,OJ,Problem_Name,Result,Language,Submission_Time
-NAHID_HASAN_RAJU,CodeForces,1497C1,Accepted,GNU C++17,2022-10-20 15:25:00
-NAHID_HASAN_RAJU,CodeForces,1497B,Accepted,GNU C++17,2022-10-20 15:24:00
-NAHID_HASAN_RAJU,CodeForces,1497A,Accepted,GNU C++17,2022-10-20 15:23:00
-NAHID_HASAN_RAJU,CodeForces,1498A,Accepted,GNU C++17,2022-10-20 15:22:00
-NAHID_HASAN_RAJU,CodeForces,1465B,Accepted,GNU C++17,2020-12-20 21:28:00
-NAHID_HASAN_RAJU,CodeForces,1411B,Accepted,GNU C++17,2022-10-20 15:18:00
-NAHID_HASAN_RAJU,CodeForces,1411A,Accepted,GNU C++17,2022-10-20 15:17:00
-NAHID_HASAN_RAJU,CodeForces,1465A,Accepted,GNU C++17,2020-12-20 21:08:00
-NAHID_HASAN_RAJU,CodeForces,1413B,Accepted,GNU C++17,2022-10-20 15:15:00
-NAHID_HASAN_RAJU,CodeForces,1413A,Accepted,GNU C++17,2022-10-20 15:14:00
-NAHID_HASAN_RAJU,CodeForces,1417C,Accepted,GNU C++17,2020-09-27 22:40:00
-NAHID_HASAN_RAJU,CodeForces,1417B,Accepted,GNU C++17,2020-09-27 21:38:00
-NAHID_HASAN_RAJU,CodeForces,1417B,Wrong answer on pretest 1,GNU C++17,2020-09-27 21:34:00
-NAHID_HASAN_RAJU,CodeForces,1417A,Accepted,GNU C++17,2020-09-27 21:12:00
-NAHID_HASAN_RAJU,CodeForces,1419D2,Accepted,GNU C++17,2020-09-19 21:52:00
-NAHID_HASAN_RAJU,CodeForces,1419D1,Accepted,GNU C++17,2020-09-19 21:37:00
-NAHID_HASAN_RAJU,CodeForces,1419B,Accepted,GNU C++17,2020-09-19 21:03:00
-NAHID_HASAN_RAJU,CodeForces,1419A,Accepted,GNU C++17,2020-09-19 20:48:00
-NAHID_HASAN_RAJU,CodeForces,1421B,Accepted,GNU C++17,2020-10-18 15:33:00
-NAHID_HASAN_RAJU,CodeForces,1421A,Accepted,GNU C++17,2020-10-18 15:10:00
+humayunraj789,LightOJ,1067,Accepted,C++,2019-12-11 22:19:24
+humayunraj789,CodeForces,7C,Runtime error on test 2,GNU G++11 5.1.0,2019-12-09 12:33:42
+humayunraj789,CodeForces,7C,Compilation error,Microsoft Visual C++ 2010,2019-12-09 12:33:21
+humayunraj789,Kattis,modulo,Accepted,C++,2019-12-09 10:41:34
+humayunraj789,Kattis,hello,Accepted,C++,2019-12-09 10:23:15
+humayunraj789,LightOJ,1263,Accepted,C++,2019-09-14 15:56:51
+humayunraj789,LightOJ,1089,Time Limit Exceeded,C++,2019-09-07 11:30:29
+humayunraj789,UVA,10107,Accepted,C++ 5.3.0,2019-07-09 15:11:46
+humayunraj789,UVA,11417,Accepted,C++ 5.3.0,2019-05-06 23:36:07
+humayunraj789,UVA,11877,Accepted,C++ 5.3.0,2019-05-06 23:00:14
+humayunraj789,UVA,11479,Accepted,C++ 5.3.0,2019-05-06 02:36:58
+humayunraj789,UVA,11479,Wrong answer,C++ 5.3.0,2019-05-06 02:27:54
+humayunraj789,UVA,11479,Wrong answer,C++ 5.3.0,2019-05-06 02:22:07
+humayunraj789,UVA,11479,Wrong answer,C++ 5.3.0,2019-05-06 02:19:34
+humayunraj789,UVA,11479,Wrong answer,C++ 5.3.0,2019-05-06 02:18:00
+humayunraj789,UVA,1586,Accepted,C++ 5.3.0,2019-05-03 17:40:11
+humayunraj789,Gym,101889H,Accepted,GNU G++14 6.4.0,2019-05-03 17:18:58
+humayunraj789,Gym,101889H,Accepted,GNU G++ 5.1.0,2019-05-03 17:18:41
+humayunraj789,ZOJ,3782,Floating Point Error,C++0x (g++ 4.7.2),2019-04-26 18:58:29
+humayunraj789,ZOJ,3782,Compilation Error,C (gcc 4.7.2),2019-04-26 18:58:17
